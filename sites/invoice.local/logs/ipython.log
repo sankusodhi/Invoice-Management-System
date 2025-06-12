@@ -1,0 +1,56 @@
+2025-06-12 20:44:45,747 INFO ipython === bench console session ===
+2025-06-12 20:44:45,748 INFO ipython frappe.new_doc("DocType")
+2025-06-12 20:44:45,748 INFO ipython doc = frappe.new_doc("DocType")
+doc.name = "Customer"  # optional, name is auto-set from title_field
+doc.module = "Invoice App"  # Your app name (must exist)
+doc.custom = 0  # this is a standard doctype inside your app
+doc.istable = 0  # it's not a child table
+doc.fields = [
+    {"fieldname": "customer_name", "label": "Customer Name", "fieldtype": "Data", "reqd": 1},
+    {"fieldname": "email", "label": "Email", "fieldtype": "Data"},
+    {"fieldname": "phone", "label": "Phone", "fieldtype": "Data"},
+]
+doc.autoname = "field:customer_name"
+doc.title_field = "customer_name"
+doc.save()
+frappe.db.commit()
+2025-06-12 20:44:45,748 INFO ipython doc = frappe.new_doc("DocType")
+doc.name = "Customer"
+doc.module = "Invoice App"
+doc.custom = 0
+doc.istable = 0
+doc.autoname = "field:customer_name"
+doc.title_field = "customer_name"
+
+# Create fields as child docs
+field1 = frappe.get_doc({
+    "doctype": "DocField",
+    "fieldname": "customer_name",
+    "label": "Customer Name",
+    "fieldtype": "Data",
+    "reqd": 1
+})
+
+field2 = frappe.get_doc({
+    "doctype": "DocField",
+    "fieldname": "email",
+    "label": "Email",
+    "fieldtype": "Data"
+})
+
+field3 = frappe.get_doc({
+    "doctype": "DocField",
+    "fieldname": "phone",
+    "label": "Phone",
+    "fieldtype": "Data"
+})
+
+# Append to doc.fields
+doc.append("fields", field1)
+doc.append("fields", field2)
+doc.append("fields", field3)
+
+# Save and commit
+doc.save()
+frappe.db.commit()
+2025-06-12 20:44:45,748 INFO ipython === session end ===
