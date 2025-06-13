@@ -11,7 +11,7 @@
 ![Invoice Page](https://drive.google.com/file/d/1fqJpKXUvVrcD85ejNKJIV9VWHDXPR7h9/view?usp=sharing)
 
 ## 🛠️ Tech Stack
-- Frappe Framework v15
+- Frappe Framework v15 and ErpNext
 - Python, JavaScript, MariaDB
 
 ## 🧪 How to Run
