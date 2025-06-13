@@ -7,8 +7,8 @@
 - Download invoice as PDF
 
 ## 🚀 Screenshots
-![Customer List](screenshots/customers.png)
-![Invoice Page](screenshots/invoice.png)
+![Customer List](https://drive.google.com/file/d/1T5CLC7j-4eLt8CV2_np8_RttiHTlZ_le/view?usp=sharing)
+![Invoice Page](https://drive.google.com/file/d/1fqJpKXUvVrcD85ejNKJIV9VWHDXPR7h9/view?usp=sharing)
 
 ## 🛠️ Tech Stack
 - Frappe Framework v15
