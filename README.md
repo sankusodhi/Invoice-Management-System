@@ -7,7 +7,8 @@
 - Download invoice as PDF
 
 ## 🚀 Screenshots
-![Customer List](https://drive.google.com/file/d/1T5CLC7j-4eLt8CV2_np8_RttiHTlZ_le/view?usp=sharing)
+![Customer List](![Screenshot from 2025-06-13 18-36-30](https://github.com/user-attachments/assets/ddac7fea-01df-4b6d-9e80-cd1cfa589211)
+)
 ![Invoice Page](![Screenshot from 2025-06-13 18-37-04](https://github.com/user-attachments/assets/64561e77-a069-4849-af15-bf8f4d77c17c)
 
 )
