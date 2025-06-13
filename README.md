@@ -8,7 +8,7 @@
 
 ## 🚀 Screenshots
 ![Customer List](https://drive.google.com/file/d/1T5CLC7j-4eLt8CV2_np8_RttiHTlZ_le/view?usp=sharing)
-![Invoice Page](https://drive.google.com/uc?export=view&id=https://drive.google.com/file/d/1fqJpKXUvVrcD85ejNKJIV9VWHDXPR7h9/view?usp=sharing
+![Invoice Page](https://drive.google.com/file/d/1YJB_LDdaK5PXN5C8FIqqIPv_BXo4EfUY/view?usp=sharing
 )
 
 ## 🛠️ Tech Stack
